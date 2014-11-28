@@ -10,7 +10,7 @@ object CreateList {
 
   def main(args: Array[String]) {
     // List of String
-    val clients: List[String] = List("Formis", "One International", "Uberfusion")
+    val clients: List[String] = List("Formis", "One International", "Uberfusion", "Formis")
 
     // Empty list
     val empty: List[Nothing] = List()
