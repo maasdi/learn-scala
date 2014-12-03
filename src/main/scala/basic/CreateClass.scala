@@ -6,7 +6,7 @@ package basic
  * @author maasdianto
  *         create on 12/3/2014
  */
-class Poin(cx: Int, cy: Int) {
+class Point(cx: Int, cy: Int) {
 
   var x: Int = cx
   var y: Int = cy
@@ -22,7 +22,7 @@ class Poin(cx: Int, cy: Int) {
 
 object CreateClass {
   def main(args: Array[String]) {
-    var point = new Poin(0, 0)
+    var point = new Point(0, 0)
     point.move(1,0)
     point.move(0,10)
   }
